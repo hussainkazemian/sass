@@ -1,0 +1,32 @@
+@use 'base';
+
+
+
+
+nav {
+      a {
+        
+        display: block;
+        color: rgb(14, 2, 2);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+
+      
+        &.active {
+          background-color: base.$active-color;
+        }
+      }
+    }
+  
+
+
+ol {
+  width: 200px;
+
+  li span {
+    color: base.$primary-color;
+    padding-left: base.$padding-16;
+  }
+}
+
